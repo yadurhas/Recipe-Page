@@ -1,0 +1,70 @@
+body{
+	line-height: 1.5;
+	letter-spacing: 1px;
+	background-color: hsl(30, 54%, 90%);
+	font-size: 16px;
+	font-family: 'Outfit';
+
+}
+h1, h2{
+	font-family: 'Young Serif';
+}
+.main {
+	width: 50%;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding:20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: hsl(0, 0%, 100%);
+}
+
+.box2 {
+	background-color: hsl(330, 100%, 98%);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#needsMargin{
+	margin: 0px 0px 0px 20px;
+	color: hsl(332, 51%, 32%);
+}
+img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+h2 {
+	color: hsl(14, 45%, 36%);
+}
+
+h3 {
+	display: inline;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr{
+	border: solid;
+	border-width: 1px 0;
+	border-color: rgba(0, 0, 0, 0.25);
+}
+
+tr:first-child {
+  border-top: none;
+}
+tr:last-child {
+  border-bottom: none;
+}
+
+td{
+	padding-left: 10px;
+}
+
+.values{
+	color: hsl(14, 65%, 36%);
+}
+
